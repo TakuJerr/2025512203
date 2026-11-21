@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 40px 15px;
+}
+
+.container {
+    max-width: 650px;
+    background: white;
+    margin: auto;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h1 {
+    color: #5145a0;
+    margin-bottom: 10px;
+}
+
+.form-header p {
+    color: #777;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.hobby-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.hobby-options label {
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #6655c7;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5141a5;
+}
+
+/* Profile Display */
+
+.profile-details {
+    background: #f7f7fc;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.profile-details p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.profile-details strong {
+    color: #5145a0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+}
